@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &.btn-yellow {
+    background-color: yellow;
+  }
+
+  &.btn-blue {
+    background-color: blue;
+    color: white;
+  }
+}
+
+.btn-roxo {
+  @extend .btn;
+  background-color: purple;
+  color: white;
+}

@@ -1,0 +1,15 @@
+@mixin text-style ($color, $font-size, $font-family) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+.aula {
+  h1 {
+    @include text-style(blue, 1.2em, Arial)
+  }
+
+  p {
+    @include text-style(red, 1em, sans-serif)
+  }
+}

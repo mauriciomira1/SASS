@@ -1,0 +1,19 @@
+.btn, .btn-roxo {
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn.btn-yellow, .btn-yellow.btn-roxo {
+  background-color: yellow;
+}
+.btn.btn-blue, .btn-blue.btn-roxo {
+  background-color: blue;
+  color: white;
+}
+
+.btn-roxo {
+  background-color: purple;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

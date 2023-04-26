@@ -1,0 +1,8 @@
+// Import colors
+@import "./colors/colors.scss";
+
+// Import Home
+@import "./pages/home.scss";
+
+
+comando para o minify // sass sass/style.scss:css/style.css --style compressed
